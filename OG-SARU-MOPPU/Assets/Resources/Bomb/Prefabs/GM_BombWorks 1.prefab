@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114885106799369784}
   - component: {fileID: 212325323602330568}
   m_Layer: 0
-  m_Name: GM_BombWorks
+  m_Name: GM_BombWorks 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212116476942955508}
   - component: {fileID: 50252454793452056}
   - component: {fileID: 58946374932427642}
-  - component: {fileID: 114268057752679050}
+  - component: {fileID: 114832512065936148}
   m_Layer: 0
   m_Name: bomb
   m_TagString: bomb
@@ -78,7 +78,7 @@ CircleCollider2D:
   m_Offset: {x: -0.12494564, y: -0.11784339}
   serializedVersion: 2
   m_Radius: 0.49414468
---- !u!114 &114268057752679050
+--- !u!114 &114832512065936148
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,7 +86,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1332462849728932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7fe86f4e420abb4e9d54b870f315494, type: 3}
+  m_Script: {fileID: 11500000, guid: b9f22239ecd35774a8109894ec51b343, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 0}
