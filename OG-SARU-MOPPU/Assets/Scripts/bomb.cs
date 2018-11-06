@@ -39,6 +39,9 @@ public class bomb : MonoBehaviour {
     }
 
     private void BombMove(){
+
+
+
         if (!Landing){
             transform.position = Vector3.Lerp(transform.position, targetObject.transform.position, 0.05f);
         }
@@ -49,7 +52,7 @@ public class bomb : MonoBehaviour {
         BombMove();
 
         //上に飛び出たらオブジェクト破壊
-        if (transform.position.y > Camera.main.transform.position.y + 5)
+        if (transform.position.y > Camera.main.transform.position.y + 10)
         {
             Destroy(this.gameObject);
         }
