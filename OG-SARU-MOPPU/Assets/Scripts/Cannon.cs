@@ -17,6 +17,7 @@ public class Cannon : MonoBehaviour {
             //ボムと衝突時
             if (arg_col.tag == "bomb")
             {
+				GetComponent<AudioSource> ().Play();
                 col_bomb = arg_col.gameObject;
                 bombRigidbody = col_bomb.GetComponent<Rigidbody2D>();
 

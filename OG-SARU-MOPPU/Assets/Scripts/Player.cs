@@ -33,11 +33,13 @@ public class Player : MonoBehaviour {
         {
             transform.position += new Vector3(m_moveSpeed, 0, 0);
             m_spriteRenderer.flipX = true;
+            GetComponent<AudioSource>().Play();
         }
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += new Vector3(-m_moveSpeed, 0, 0);
             m_spriteRenderer.flipX = false;
+            GetComponent<AudioSource>().Play();
         }
         if (m_rigidbody2D.velocity.y == 0)
             m_jumping = false;
