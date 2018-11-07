@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FallBomb : MonoBehaviour
 {
@@ -81,6 +82,9 @@ public class FallBomb : MonoBehaviour
                 Destroy(collision.gameObject);
             }
             Destroy(gameObject);
+
+            SceneManager.LoadScene("GameOver");
+
         }
     }
 

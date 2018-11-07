@@ -25,7 +25,7 @@ public class RimitTime : MonoBehaviour {
         if (time <= 0)
         {
             m_text.text = "終了";
-            //SceneManager.LoadScene("");
+            SceneManager.LoadScene("Clear");
         }
 	}
 }
